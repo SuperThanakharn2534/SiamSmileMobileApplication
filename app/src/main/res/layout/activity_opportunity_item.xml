@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="ชื่อ - นามสกุล"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/Id_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="เลขบัตรประชาชน"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,InefficientWeight" />
+
+    <TextView
+        android:id="@+id/PhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="เบอร์โทรศัพท์"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,InefficientWeight" />
+
+    <TextView
+        android:id="@+id/Province"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="จังหวัด"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,InefficientWeight" />
+
+    <TextView
+        android:id="@+id/E_Mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="E-Mail"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,InefficientWeight" />
+
+</LinearLayout>
